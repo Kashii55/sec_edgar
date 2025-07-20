@@ -83,6 +83,7 @@ class EdgarSpider(scrapy.Spider):
     name = "edgar"
     allowed_domains = ["efts.sec.gov", "sec.gov"]
     
+    
 
     download_delay = 0.2  # be polite
 
