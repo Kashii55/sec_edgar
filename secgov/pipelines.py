@@ -19,11 +19,9 @@ import json
 import requests
 
 class TelegramAlertPipeline:
-    # replace with your real bot token & chat ID
-    # BOT_TOKEN = "7876240812:AAHuWDVg2ZHFUeF8XiMw6ZXLo4_NX09y7-A"
-    # CHAT_ID   = "5939794402"
-    BOT_TOKEN = "7876240812:AAHuWDVg2ZHFUeF8XiMw6ZXLo4_NX09y7-A"
-    CHAT_ID   = "5469049653"
+    
+    BOT_TOKEN = "Enter YOUR TOKEN"
+    CHAT_ID   = "ENTER CHAT ID"
     SEND_URL  = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
     def process_item(self, item, spider):
